@@ -179,8 +179,8 @@ int main(int argc, char** argv) {
 		cout << "The entered number is not a prime. \n";
 		return 1;
 	}
-	if (order > 100) {
-		cout << "This projective plane would kill your computer. Don't even try it. \n";
+	if (order > 25) {
+		cout << "This projective plane would kill your computer. Don't even try it. (I did :/ ) \n";
 		return 1;
 	}
 
